@@ -18,13 +18,13 @@ public class QReaderActivity extends AppCompatActivity implements DecoratedBarco
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.main_activity);
+        setContentView(R.layout.view_qrcode);
 
-        barcodeView = findViewById(R.id.db_qr);
-
-        manager = new CaptureManager(this, barcodeView);
-        manager.initializeFromIntent(getIntent(),savedInstanceState);
-        manager.decode();
+//        barcodeView = findViewById(R.id.db_qr);
+//
+//        manager = new CaptureManager(this, barcodeView);
+//        manager.initializeFromIntent(getIntent(),savedInstanceState);
+//        manager.decode();
     }
 
     @Override
